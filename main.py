@@ -51,22 +51,19 @@ while (not stop):
         
     if i == "d":
        print("You are going down")
+       print(position)
        row0 = matrix[0]
        position[0] = 0
     else:
-         position[0] = position[0] + 1
-         print(position)
+       position[0] = position[0] + 1
+print(position)
          
-         
-         
-    if i == "u":
-       row0 = matrix[1]
-       print("You are going up")
-       if position[0] > 0 + 1:
-          position[0] = 0
-       else:
-         position[0] = 0
-         position[0] + 1 
+  #  if i == "u":
+    ##   print("You are going up")
+     #  if position[0] > 0 + 1:
+     #     position[0] = 0
+      # else:
+       ##  position[0] + 1 
     
            
        
