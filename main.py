@@ -53,6 +53,7 @@ while (not stop):
        print("You are going down")
        print(position)
        row0 = matrix[0]
+    if position[0] > 2 -1:
        position[0] = 0
     else:
        position[0] = position[0] + 1
